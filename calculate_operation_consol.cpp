@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
     double operand2 = std::stod(argv[3]);
 
     if(operand2 == 0)
-        std::cerr << "Fehler: Nicht durhc 0 Teilbar!" << std::endl;
+        std::cerr << "Fehler: Nicht durch 0 Teilbar!" << std::endl;
 
     operation op = string_to_op(op_str);
 
